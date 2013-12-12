@@ -1,8 +1,4 @@
 var app = angular.module('elitistfursapp', []);
-    app.config(function($interpolateProvider) { 
-      $interpolateProvider.startSymbol('(('); 
-      $interpolateProvider.endSymbol('))');
-    });
 
 function elitistCtrl($scope){
 	
